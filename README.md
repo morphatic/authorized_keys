@@ -11,7 +11,7 @@ Steps to get these onto a droplet:
     ```
 5. Download the `keys` file on this repo in raw mode
     ```sh
-    wget https://raw.githubusercontent.com/morphatic/authorized_keys/main/keys?token=AADSIDBXK7WKGSC2V3PNO227VV36M > temp1
+    curl https://raw.githubusercontent.com/morphatic/authorized_keys/main/keys > temp1
     ```
 6. Append the downloaded key onto the end of the `authorized_keys` file:
     ```sh
